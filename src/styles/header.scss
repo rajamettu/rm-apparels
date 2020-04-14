@@ -6,11 +6,7 @@
   margin-bottom: 25px;
 
   .logo-container {
-    // height: 100%;
-    // width: 70px;
-    // padding: 25px;
-
-    &logo {
+    .logo {
       width: 40%;
     }
   }
@@ -23,7 +19,8 @@
     justify-content: flex-end;
 
     .option {
-      padding: 10px 15px;
+      padding: 10px 15px; 
+      cursor: pointer;
     }
   }
 }
