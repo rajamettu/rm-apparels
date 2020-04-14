@@ -1,0 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+// import { ReactComponent as Logo } from "../assets/RM-logo.svg";
+import Logo from "../assets/RM-logo.png";
+import "../styles/header.scss";
+
+const Header = () => {
+  return (
+    <div className="header">
+      <Link className="logo-container" to="/">
+        {/* <Logo className="logo" /> */}
+        <img className='logo' src={Logo} alt=""/>
+      </Link>
+      <div className="options">
+        <Link className="option" to="/shop">
+          SHOP
+        </Link>
+        <Link className="option" to="/contact">
+          CONTACT
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
