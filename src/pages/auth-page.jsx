@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/authpage.scss";
+import "../styles/auth-page.scss";
 import SignIn from "../components/signin";
 import SignUp from "../components/signup";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/homepage.scss";
+import "../styles/home-page.scss";
 import Directory from "../components/directory";
 
 const HomePage = () => {
